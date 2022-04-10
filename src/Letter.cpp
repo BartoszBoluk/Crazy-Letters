@@ -3,7 +3,7 @@
 void Letter::initLetter()
 {
     this->l = 'a' + rand()%26;
-    int x = rand()%750;
+    int x = rand()%1230;
 
     this->letter.setFillColor(sf::Color::Red);
     this->letter.setSize(sf::Vector2f(50,50));
@@ -17,7 +17,7 @@ void Letter::initLetter()
 
     this->text.setFont(this->font);
     this->text.setCharacterSize(50);
-    this->text.setPosition(sf::Vector2f(x+4,13));
+    this->text.setPosition(sf::Vector2f(x+5,13));
     this->text.setString(l);
 
 }
@@ -32,9 +32,19 @@ Letter::~Letter()
     //dtor
 }
 
+sf::FloatRect Letter::getBounds() const
+{
+    return this->letter.getGlobalBounds();
+}
+
 char Letter::getLetter()
 {
     return this->l;
+}
+
+const int Letter::getPosY() const
+{
+    return this->letter.getPosition().y;
 }
 
 void Letter::updatePos(int x, int y)

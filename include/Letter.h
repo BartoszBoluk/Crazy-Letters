@@ -18,7 +18,9 @@ public:
     Letter();
     virtual ~Letter();
 
+    sf::FloatRect getBounds() const;
     char getLetter();
+    const int getPosY() const;
 
     void updatePos(int x, int y);
 

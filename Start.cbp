@@ -49,6 +49,7 @@
 		</Linker>
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/Letter.h" />
+		<Unit filename="include/Player.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="openal32.dll" />
 		<Unit filename="sfml-audio-2.dll" />
@@ -63,6 +64,7 @@
 		<Unit filename="sfml-window-d-2.dll" />
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/Letter.cpp" />
+		<Unit filename="src/Player.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

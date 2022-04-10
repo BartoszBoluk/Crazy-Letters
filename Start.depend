@@ -411,18 +411,19 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1649499987 d:\programowanie\suraj sharma games\falling letters\include\letter.h
+1649504688 d:\programowanie\suraj sharma games\falling letters\include\letter.h
 	<iostream>
 	<SFML/Graphics.hpp>
 
-1649499443 source:d:\programowanie\suraj sharma games\falling letters\src\letter.cpp
+1649504688 source:d:\programowanie\suraj sharma games\falling letters\src\letter.cpp
 	"Letter.h"
 
-1649499987 d:\programowanie\suraj sharma games\falling letters\include\game.h
+1649503833 d:\programowanie\suraj sharma games\falling letters\include\game.h
 	"Letter.h"
 	<vector>
+	<sstream>
 
-1649499719 source:d:\programowanie\suraj sharma games\falling letters\src\game.cpp
+1649542720 source:d:\programowanie\suraj sharma games\falling letters\src\game.cpp
 	"Game.h"
 
 1649498813 d:\programowanie\suraj sharma games\falling letters\include\lettertext.h
@@ -431,4 +432,37 @@
 
 1649498833 source:d:\programowanie\suraj sharma games\falling letters\src\lettertext.cpp
 	"LetterText.h"
+
+1649542698 source:d:\programowanie\suraj sharma games\falling letters\src\player.cpp
+	"Player.h"
+
+1649542698 d:\programowanie\suraj sharma games\falling letters\include\player.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1648659314 source:d:\programowanie\games\falling letters\main.cpp
+	"Game.h"
+
+1649588846 d:\programowanie\games\falling letters\include\game.h
+	"Letter.h"
+	"Player.h"
+	<vector>
+	<sstream>
+
+1649585745 d:\programowanie\games\falling letters\include\letter.h
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1649587077 source:d:\programowanie\games\falling letters\src\game.cpp
+	"Game.h"
+
+1649586521 source:d:\programowanie\games\falling letters\src\letter.cpp
+	"Letter.h"
+
+1649587485 source:d:\programowanie\games\falling letters\src\player.cpp
+	"Player.h"
+
+1649587485 d:\programowanie\games\falling letters\include\player.h
+	<SFML/Graphics.hpp>
+	<iostream>
 
